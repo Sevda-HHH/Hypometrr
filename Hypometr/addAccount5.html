@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <button class="btn btn-success" data-toggle="modal" data-target="#exampleModal"> Add A contact
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog  modal-lg  modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body p-0">
+                        <div style="    border-bottom: 1px solid rgba(137, 138, 160, 0.4);" id="exampleModalLabel" class="cols-lg-6  modal-title  justify-content-start  logo">
+                            <h3 class="pt-5 pl-5 pr-5">
+                                Добавить аккаунт
+                            </h3>
+                            <h4 class="pl-5 pr-5">Описание процедуры ?</h4>
+                            <div class="example pb-5 pt-3">
+                                <div class="progres">
+                                    <div class="progres__container">
+                                        <div class="progres__bar" style="width: 25%">
+                                            <div class="step step--first">
+                                                <div class="step__content">
+                                                    <div class="step__title completedd col-lg-12 col-sm-12 col-6 pl-0">
+                                                        <div class="first-stepCurrent">
+
+                                                        </div>
+                                                        Укажите никнейм
+                                                        <span class="step_title--status-icon steptitle--status-icon--first step_title--status-icon-completed"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="step" style="left: 50%">
+                                                <div class="step__content">
+                                                    <div class="step__title col-lg-12 col-sm-12 col-6 pl-0">
+                                                        <div class="second-stepNotDone">
+
+                                                        </div>
+                                                        Подтвердите аккаунт
+                                                        <span class="step_title--status-icon step_title--status-icon-completed" style="background-color: white;"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="step step--last">
+                                                <div class="step__content">
+                                                    <div class="step__title col-lg-12 col-sm-12 col-6">
+                                                        <div class="third-stepNotDone"></div>
+                                                        Оплата
+                                                        <span class="step_title--status-icon step_title--status-icon--last"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mainBody p-5">
+                            <div class="d-flex flex-wrap ">
+                                <div class="processPoints col-sm-5 pr-0">
+                                    1. Скопируйте ваш код верификации
+                                </div>
+                                <div class="d-flex col-sm-5 justify-content-between ">
+                                    <div class="pasCode">
+                                        6
+                                    </div>
+                                    <div class="pasCode">1</div>
+                                    <div class="pasCode">5</div>
+                                    <div class="pasCode">4</div>
+                                </div>
+                                <a class="copy  m-auto ">
+                                    <img src="img/coppyy.JPG" alt=""> Скопировать
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-between flex-wrap mt-5 ">
+                                <div class=" col-12 
+                                                mb-2    processPoints"> 2. Оставьте комментарий с кодом под постом от @name
+                                </div>
+                                <div class="form-group ml-3">
+                                    <input type="text" style="
+                width: 503px;
+                padding: 15px;
+            " value="https://www.instagram.com/p/B9bvRi2nhoL/?igshid=1lvlpwg6"><i class="fas fa-arrow-up" aria-hidden="true"></i>
+                                </div>
+                                <a class="copy m-auto ">
+                                    <img src="img/coppyy.JPG" alt=""> Скопировать
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-between flex-wrap mt-5 ">
+                                <div class=" col-12  mb-2 processPoints"> 3. Нажмите на "проверить комментарий </div>
+                                <div class=" col-12 checkComment"> Проверить комментарий </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end mr-4"><button class=" goBackBtnNoActive btn btn-submit">
+                                Назад
+                            </button><button class=" nextBtnActive btn btn-success"> Далее</button> </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous ">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous ">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous ">
+    </script>
+    <script src="https://kit.fontawesome.com/dab2f3f5f3.js " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
